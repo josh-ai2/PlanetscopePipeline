@@ -49,6 +49,10 @@ Image ID: 20200121_092611_01_106b, Cloud Cover: 0.45, Date: 20200121`
 2. The `activation_log.txt` file logs the activation status of image IDs.
 3. The `download_log.txt` file logs the download links for the image IDs.
 
+## MAIN RESULTS: 
+
+![RESULTS](.idea/diagram3.png)
+
    
 
 ## **PROJECT STILL UNDER PROGRESS**
