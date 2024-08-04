@@ -1,4 +1,4 @@
-# Tree Semantic Classifier
+# Planetscope Pipeline
 
 This project involves querying, clustering, and downloading satellite images from Planet.com using their API. It includes three main Python scripts: `query.py`, `thumbnail.py`, and `cluster.py`. Each script is responsible for different parts of the workflow.
 
