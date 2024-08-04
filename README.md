@@ -24,11 +24,32 @@ This project involves querying, clustering, and downloading satellite images fro
 https://tiles.planet.com/data/v1/item-types/PSScene/items/20200121_092611_01_106b/thumb
 Image ID: 20200121_092611_01_106b, Cloud Cover: 0.45, Date: 20200121`
 
+- **Activation.py**: Activates image assets based on user input.
+- Reads image IDs from the `thumb_activation` folder and checks their activation status.
+- Prompts the user to activate image assets and logs the activation status in `activation_log.txt`.
+- Sample usage: `python Activation.py`
+
+- **Download.py**: Generates download links for activated image assets based on user input.
+- Reads active image IDs from `activation_log.txt`.
+- Prompts the user to generate download links for each image asset and logs the download links in `download_log.txt`.
+- Sample usage: `python Download.py`
+
+## Important Notes
+
+1. Ensure that you move files from the `thumbnail_dump` folder into the `thumb_activation` folder before running `Activation.py`.
+2. The `activation_log.txt` file logs the activation status of image IDs.
+3. The `download_log.txt` file logs the download links for the image IDs.
+
+## **PROJECT STILL UNDER PROGRESS**
+Future implementations:
+1. "CLIP" function to clip the downloaded images into our desired size (careful about the download quota).
+
+
 ## **PROJECT STILL UNDER PROGRESS**
 Future implementations: 
-1. Select and send image assets into API endpoint for activation
+1. ~~Select and send image assets into API endpoint for activation~~
 2. "CLIP" function to clip the downloaded images into our desired size (careful about the download quota)
-3. Generate download links for each image 
+3. ~~Generate download links for each image~~
 
 
 
