@@ -62,5 +62,13 @@ Future implementations:
 3. ~~Generate download links for each image~~
 
 ## **CLIP FUNCTION IMPLEMENTATION** 
-- The final implementation that we need to do is search customization -- being able to add more custom parameters. We improve Query.py, specifically when we package the JSON payload before we send the post request into their quick-search API endpoint. Our goal is to be able to simply have a 256x256 or 128x128 bounding box surrounding the lats and longs when we cluster them together. 
+- The final implementation that we need to do is search customization -- being able to add more custom parameters. We improve Query.py, specifically when we package the JSON payload before we send the post request into their quick-search API endpoint. Our goal is to be able to simply have a 256x256 or 128x128 bounding box surrounding the lats and longs when we cluster them together.
+
+## COREGISTER (TO BE IMPLEMENTED)**
+
+- The coregistration tool ensures that images in a specified time series are spatially aligned, so that any feature in one image overlaps as precisely as possible with its position in any other image in the series.
+
+This tool is designed to support coregistration of small areas of interest – contained within a single scene – and works best with high geographic overlap between scenes in the times series.
+
+SOURCE: https://developers.planet.com/apis/orders/tools/
 
