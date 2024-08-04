@@ -58,9 +58,9 @@ Image ID: 20200121_092611_01_106b, Cloud Cover: 0.45, Date: 20200121`
 ## **PROJECT STILL UNDER PROGRESS**
 Future implementations: 
 1. ~~Select and send image assets into API endpoint for activation~~
-2. "CLIP" function to clip the downloaded images into our desired size (careful about the download quota)
+2. "CLIP" function to clip the downloaded images into our desired size (careful about the download quota). 
 3. ~~Generate download links for each image~~
 
-
-
+## **CLIP FUNCTION IMPLEMENTATION** 
+- The final implementation that we need to do is search customization -- being able to add more custom parameters. We improve Query.py, specifically when we package the JSON payload before we send the post request into their quick-search API endpoint. Our goal is to be able to simply have a 256x256 or 128x128 bounding box surrounding the lats and longs when we cluster them together. 
 
