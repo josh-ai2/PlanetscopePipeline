@@ -1,0 +1,18 @@
+QL_GroundTruth_Points.csv
+--------------------------
+Ground truth data based on fieldworks in 2019 and 2022, and the summary of former researches provided by the ChangQing NR Management Bureau. 
+
+categories:
+larch_JP: Japanese larch.
+larch_CN: Chinese golden larch.
+deci_broad: Deciduous broad-leaf forest.
+ever_broad: Evergreen broad-leaf forest.
+mix_coni_broad: Mixed coniferous and broad-leaved forest.
+ever_coni: Evergreen coniferous forest.
+grassland: Grassland.
+
+ref:
+FieldworkB: Data from the fieldwork of Binbin Li and Siqi Liang in 2018 to 2019. (Range: CQ)
+FieldworkL: Data from the fieldwork of Lucy Zhang in 2022. (Range: CQ, GYS, HBY)
+FormerResearch: Data from former researches provided by the ChangQing NR.(Range: CQ)
+
